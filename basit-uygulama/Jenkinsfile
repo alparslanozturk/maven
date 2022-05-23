@@ -10,12 +10,14 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        sh 'mvn -B -DskipTests clean package'
+        dir('basit-uygulama'){
+          sh 'mvn -B -DskipTests clean package'
+        }
       }
     }
     stage('Deliver'){
       steps {
-        sh 'deliver.sh'
+        sh 'echo deliver.sh'
       }
     }
   }
