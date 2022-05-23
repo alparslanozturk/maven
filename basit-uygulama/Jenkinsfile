@@ -34,6 +34,8 @@ pipeline {
     stage('Deliver'){
       steps {
         dir('basit-uygulama'){
+          sh 'ls -alh '
+          sh 'mvn --version'
           sh './deliver.sh'
         }
       }
