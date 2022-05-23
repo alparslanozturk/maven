@@ -21,12 +21,13 @@ pipeline {
         }
       }
       post {
-        dir('basit-uygulama'){
-          always{
-            junit 'target/surefire-reports/*.xml'
+          always {
+              dir('basit-uygulama'){
+                junit 'target/surefire-reports/*.xml'
+              }
           }
-        }
       }
+    }
     }
     stage('Deliver'){
       steps {
