@@ -52,3 +52,7 @@ drwxrwxr-x 3 kullan kullan 4.0K May 24 12:05 images
 
 ![image](https://user-images.githubusercontent.com/9527118/169994889-271291d6-bd5e-4fae-8966-4528e2424330.png)
 
+
+![image](https://user-images.githubusercontent.com/9527118/170036636-8a0384e4-10a0-42ee-aa15-82c24d103094.png)
+
+
