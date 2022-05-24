@@ -1,7 +1,5 @@
 # maven
 
-## basit-uygulama
-
 2 adet uygulama aşağıda görüldüğü gibi fark yoktur. Ancak -DarchetypeArtifactId=maven-archetype-quickstart ile jakartaEE uygulama create ederseniz faklı olacaktır. 
 
 ![image](https://user-images.githubusercontent.com/9527118/169993701-9819c379-c25f-45a5-aab7-c15a75fe2869.png)
